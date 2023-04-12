@@ -1,1 +1,7 @@
 
+#include<stdio.h>
+int main()
+{
+int a=10;
+printf("int value=%d\n",a);
+}
