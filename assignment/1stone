@@ -5,3 +5,31 @@ int main()
 int a=10;
 printf("int value=%d\n",a);
 }
+
+
+#include<stdio.h>
+int main()
+{
+char ch ='d';
+printf("char value ch=%c",ch);
+}
+
+
+#include<stdio.h>
+int main ()
+{
+float f=2.23;
+printf("flaot value f=%f",f);
+}
+
+
+
+#include<stdio.h>
+int main ()
+{
+int a;
+char ch;
+printf("enter the value");
+scanf("%d,%c",&a,&ch);
+printf("%d,%c",a,ch);
+}
